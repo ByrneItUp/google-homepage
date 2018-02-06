@@ -14,6 +14,10 @@
   padding: 15px 8px;
 }
 
+.nav-head a {
+  color: rgba(0,0,0,0.87);
+}
+
 body {
   font-family: arial, sans-serif;
 }
@@ -111,6 +115,20 @@ footer p {
 footer nav {
   display: block;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-terms a, .nav-about a {
+  color: #717171;
+}
+
 
 footer .nav-about {
   margin-left: -left: 30px;
